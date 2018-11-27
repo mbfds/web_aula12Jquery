@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>JQuery Aula 02</title>
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/estilo.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/jquery-ui.css">
+        <link rel="stylesheet" href="css/jquery-ui.structure.css">
+        <link rel="stylesheet" href="css/jquery-ui.theme.css">
+         <!-- jQuery -->
+         <script src="js/jquery.min.js"></script>
+         <script src="js/jquery-ui.js"></script>
+
+
+    </head>
+    <body>
+        
+        <div class="container">
+        
+            
+            <div class="btn btn-primary col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h1 class="text-center text-danger">TOPO DO SITE</h1>
+            </div>
+
+
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                <ul id="menu">
+                    <li>
+                      <div><span class="ui-icon ui-icon-disk"></span>CSS</div>
+                    </li>
+                    <li>
+                      <div><span class="ui-icon ui-icon-zoomin"></span>HTML</div>
+                    </li>
+                    <li>
+                      <div><span class="ui-icon ui-icon-zoomout"></span>JavaScript</div>
+                    </li>
+                    <li class="ui-state-disabled">
+                      <div><span class="ui-icon ui-icon-print"></span>C#</div>
+                    </li>
+                    <li>
+                      <div>DELPHI</div>
+                      <ul>
+                        <li>
+                          <div><span class="ui-icon ui-icon-seek-start"></span>Desktop</div>
+                        </li>
+                        <li>
+                          <div><span class="ui-icon ui-icon-stop"></span>Mobile</div>
+                        </li>
+                        <li>
+                          <div><span class="ui-icon ui-icon-play"></span>Service</div>
+                        </li>
+                      </ul>
+                    </li>
+                    
+                  </ul>
+            </div>
+            
+            
+            
+            <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                <h1 class="text-center">Entre em Contato</h1>
+
+        
+                <div id="erro" class="alert alert-danger">
+                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                    <strong>Erro </strong> Algo deu muito errado.
+                </div>
+
+                
+                <div id="sucesso" class="alert alert-success">
+                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                    <strong>Cadastrado </strong> Sua mensagem foi enviada com Sucesso!
+                </div>
+                
+
+                
+                <form action="#" method="POST" role="form">
+                    <legend>Reclame Aqui!</legend>
+                
+                    <div class="form-group">
+                        <label for="">Nome:</label>
+                        <input type="text" class="form-control" id="nome" placeholder="Digite Seu nome Aqui:">
+                    </div>
+                
+                    <button id="btn_enviar" type="submit" class="btn btn-primary">Enviar</button>
+                    <br>
+                    Data: <input type="text" class="form-control" id="data" />
+
+                </form>    
+            </div>
+            
+        
+        
+       
+
+       
+        <!-- Bootstrap JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+
+        <script src="js/alert2.js"></script>
+        <script src="js/principal.js"></script>
+        </div>
+    </body>
+</html>
